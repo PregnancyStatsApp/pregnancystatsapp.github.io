@@ -1,0 +1,80 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.header h1 {
+  font-size: 2.5rem;
+  color: #2a9d8f;
+  margin-bottom: 0.5rem;
+}
+.header p {
+  font-size: 1.2rem;
+}
+
+/* Intro Section */
+.intro {
+  padding: 2rem 1rem;
+  background-color: #e9f5f3;
+  text-align: center;
+}
+.intro h2 {
+  font-size: 2rem;
+  color: #264653;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+.faq h2 {
+  font-size: 2rem;
+  color: #2a9d8f;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.faq-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+.faq-item h3 {
+  font-size: 1.2rem;
+  color: #264653;
+  cursor: pointer;
+}
+.faq-item p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  display: none;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+.footer p {
+  font-size: 0.9rem;
+  color: #777;
+}
