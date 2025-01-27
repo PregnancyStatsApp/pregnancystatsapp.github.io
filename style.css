@@ -135,3 +135,36 @@ body {
   color: white;
   border-radius: 40px 40px 0 0;
 }
+
+/* Privacy Policy Section */
+.privacy-policy-section {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.privacy-policy-section h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.privacy-policy-section p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.privacy-policy-section a {
+  color: #ff8ba7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.privacy-policy-section a:hover {
+  text-decoration: underline;
+}
